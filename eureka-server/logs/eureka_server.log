@@ -1,0 +1,56 @@
+2025-05-02 11:55:55 - Starting EurekaServerApplication using Java 21.0.6 with PID 3712 (D:\SpringProjects\Project\eureka-server\target\classes started by User in D:\SpringProjects\Project\eureka-server)
+2025-05-02 11:55:55 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-05-02 11:55:55 - No active profile set, falling back to 1 default profile: "default"
+2025-05-02 11:55:57 - BeanFactory id=2ab8b5c1-0f31-3e11-bd42-870bfab84a74
+2025-05-02 11:55:57 - Tomcat initialized with port 8761 (http)
+2025-05-02 11:55:57 - Starting service [Tomcat]
+2025-05-02 11:55:57 - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-05-02 11:55:57 - Initializing Spring embedded WebApplicationContext
+2025-05-02 11:55:57 - Root WebApplicationContext: initialization completed in 1807 ms
+2025-05-02 11:55:58 - Using JSON encoding codec LegacyJacksonJson
+2025-05-02 11:55:58 - Using JSON decoding codec LegacyJacksonJson
+2025-05-02 11:55:58 - Using XML encoding codec XStreamXml
+2025-05-02 11:55:58 - Using XML decoding codec XStreamXml
+2025-05-02 11:55:59 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-02 11:56:01 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-02 11:56:01 - Setting initial instance status as: STARTING
+2025-05-02 11:56:01 - Initializing Eureka in region us-east-1
+2025-05-02 11:56:01 - Client configured to neither register nor query for data.
+2025-05-02 11:56:01 - Discovery Client initialized at timestamp 1746167161488 with initial instances count: 0
+2025-05-02 11:56:01 - Initializing ...
+2025-05-02 11:56:01 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-05-02 11:56:01 - Finished initializing remote region registries. All known remote regions: []
+2025-05-02 11:56:01 - Initialized
+2025-05-02 11:56:01 - Exposing 1 endpoint beneath base path '/actuator'
+2025-05-02 11:56:01 - Registering application EUREKA-SERVER with eureka with status UP
+2025-05-02 11:56:01 - isAws returned false
+2025-05-02 11:56:01 - Initialized server context
+2025-05-02 11:56:01 - Got 1 instances from neighboring DS node
+2025-05-02 11:56:01 - Renew threshold is: 1
+2025-05-02 11:56:01 - Changing status to UP
+2025-05-02 11:56:01 - Started Eureka Server
+2025-05-02 11:56:01 - Tomcat started on port 8761 (http) with context path '/'
+2025-05-02 11:56:01 - Updating port to 8761
+2025-05-02 11:56:01 - Started EurekaServerApplication in 7.002 seconds (process running for 8.147)
+2025-05-02 11:56:01 - Eureka Server started successfully.
+2025-05-02 11:56:02 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-02 11:56:02 - Initializing Servlet 'dispatcherServlet'
+2025-05-02 11:56:02 - Completed initialization in 4 ms
+2025-05-02 11:56:13 - Registered instance API-GATEWAY-SERVICE/DESKTOP-C525GN2:api-gateway-service:8080 with status UP (replication=false)
+2025-05-02 11:56:35 - Registered instance BOOKING-SERVICE/DESKTOP-C525GN2:booking-service:8083 with status UP (replication=false)
+2025-05-02 11:56:42 - Registered instance LOGIN-SERVICE/DESKTOP-C525GN2:login-service:8082 with status UP (replication=false)
+2025-05-02 11:56:45 - Registered instance REGISTRATION-SERVICE/DESKTOP-C525GN2:registration-service:8081 with status UP (replication=false)
+2025-05-02 11:56:49 - Registered instance TRAIN-SERVICE/DESKTOP-C525GN2:train-service:8084 with status UP (replication=false)
+2025-05-02 11:57:01 - Running the evict task with compensationTime 0ms
+2025-05-02 11:57:02 - Application shutdown requested.
+2025-05-02 11:57:02 - Unregistering application EUREKA-SERVER with eureka with status DOWN
+2025-05-02 11:57:02 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-02 11:57:02 - Graceful shutdown complete
+2025-05-02 11:57:03 - Shutting down Eureka Server..
+2025-05-02 11:57:03 - Shutting down ...
+2025-05-02 11:57:03 - Shut down
+2025-05-02 11:57:03 - Eureka Service is now shutdown...
+2025-05-02 11:57:03 - Shutting down ...
+2025-05-02 11:57:03 - Shut down
+2025-05-02 11:57:03 - Shutting down DiscoveryClient ...
+2025-05-02 11:57:03 - Completed shut down of DiscoveryClient

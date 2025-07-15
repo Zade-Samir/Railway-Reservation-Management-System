@@ -1,0 +1,305 @@
+2025-07-04 15:36:48 - Starting EurekaServerApplication using Java 21.0.6 with PID 1372 (D:\SpringProjects\Project\eureka-server\target\classes started by User in D:\SpringProjects\Project\eureka-server)
+2025-07-04 15:36:48 - Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-07-04 15:36:48 - No active profile set, falling back to 1 default profile: "default"
+2025-07-04 15:37:03 - BeanFactory id=2ab8b5c1-0f31-3e11-bd42-870bfab84a74
+2025-07-04 15:37:06 - Tomcat initialized with port 8761 (http)
+2025-07-04 15:37:06 - Starting service [Tomcat]
+2025-07-04 15:37:06 - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-07-04 15:37:07 - Initializing Spring embedded WebApplicationContext
+2025-07-04 15:37:07 - Root WebApplicationContext: initialization completed in 17776 ms
+2025-07-04 15:37:29 - Using JSON encoding codec LegacyJacksonJson
+2025-07-04 15:37:29 - Using JSON decoding codec LegacyJacksonJson
+2025-07-04 15:37:33 - Using XML encoding codec XStreamXml
+2025-07-04 15:37:33 - Using XML decoding codec XStreamXml
+2025-07-04 15:37:34 - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-07-04 15:37:40 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-04 15:37:40 - Setting initial instance status as: STARTING
+2025-07-04 15:37:40 - Initializing Eureka in region us-east-1
+2025-07-04 15:37:40 - Client configured to neither register nor query for data.
+2025-07-04 15:37:40 - Discovery Client initialized at timestamp 1751623660705 with initial instances count: 0
+2025-07-04 15:37:41 - Initializing ...
+2025-07-04 15:37:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 15:37:41 - Finished initializing remote region registries. All known remote regions: []
+2025-07-04 15:37:41 - Initialized
+2025-07-04 15:37:41 - Exposing 1 endpoint beneath base path '/actuator'
+2025-07-04 15:37:41 - Registering application EUREKA-SERVER with eureka with status UP
+2025-07-04 15:37:41 - Tomcat started on port 8761 (http) with context path '/'
+2025-07-04 15:37:41 - Updating port to 8761
+2025-07-04 15:37:41 - Started EurekaServerApplication in 61.768 seconds (process running for 90.795)
+2025-07-04 15:37:41 - Eureka Server started successfully.
+2025-07-04 15:37:41 - isAws returned false
+2025-07-04 15:37:41 - Initialized server context
+2025-07-04 15:37:41 - Got 1 instances from neighboring DS node
+2025-07-04 15:37:41 - Renew threshold is: 1
+2025-07-04 15:37:41 - Changing status to UP
+2025-07-04 15:37:41 - Started Eureka Server
+2025-07-04 15:38:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-04 15:38:08 - Initializing Servlet 'dispatcherServlet'
+2025-07-04 15:38:08 - Completed initialization in 4 ms
+2025-07-04 15:38:08 - DS: Registry: lease doesn't exist, registering resource: API-GATEWAY-SERVICE - DESKTOP-C525GN2:api-gateway-service:8080
+2025-07-04 15:38:08 - Not Found (Renew): API-GATEWAY-SERVICE - DESKTOP-C525GN2:api-gateway-service:8080
+2025-07-04 15:38:09 - Registered instance API-GATEWAY-SERVICE/DESKTOP-C525GN2:api-gateway-service:8080 with status UP (replication=false)
+2025-07-04 15:38:09 - Registered instance API-GATEWAY-SERVICE/DESKTOP-C525GN2:api-gateway-service:8080 with status UP (replication=false)
+2025-07-04 15:38:10 - Registered instance TRAIN-SERVICE/DESKTOP-C525GN2:train-service:8084 with status UP (replication=false)
+2025-07-04 15:38:10 - Registered instance BOOKING-SERVICE/DESKTOP-C525GN2:booking-service:8083 with status UP (replication=false)
+2025-07-04 15:38:10 - Registered instance REGISTRATION-SERVICE/DESKTOP-C525GN2:registration-service:8081 with status UP (replication=false)
+2025-07-04 15:38:11 - Registered instance LOGIN-SERVICE/DESKTOP-C525GN2:login-service:8082 with status UP (replication=false)
+2025-07-04 15:38:41 - Running the evict task with compensationTime 0ms
+2025-07-04 15:39:41 - Running the evict task with compensationTime 13ms
+2025-07-04 15:40:41 - Running the evict task with compensationTime 8ms
+2025-07-04 15:41:41 - Running the evict task with compensationTime 1ms
+2025-07-04 15:42:41 - Running the evict task with compensationTime 0ms
+2025-07-04 15:43:41 - Running the evict task with compensationTime 2ms
+2025-07-04 15:44:41 - Running the evict task with compensationTime 2ms
+2025-07-04 15:45:41 - Running the evict task with compensationTime 7ms
+2025-07-04 15:46:41 - Running the evict task with compensationTime 0ms
+2025-07-04 15:47:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 15:47:41 - Running the evict task with compensationTime 1ms
+2025-07-04 15:48:41 - Running the evict task with compensationTime 15ms
+2025-07-04 15:49:41 - Running the evict task with compensationTime 0ms
+2025-07-04 15:50:41 - Running the evict task with compensationTime 4ms
+2025-07-04 15:51:41 - Running the evict task with compensationTime 15ms
+2025-07-04 15:52:41 - Current renewal threshold is : 10
+2025-07-04 15:52:41 - Running the evict task with compensationTime 2ms
+2025-07-04 15:53:41 - Running the evict task with compensationTime 1ms
+2025-07-04 15:54:41 - Running the evict task with compensationTime 1ms
+2025-07-04 15:55:41 - Running the evict task with compensationTime 3ms
+2025-07-04 15:56:42 - Running the evict task with compensationTime 3ms
+2025-07-04 15:57:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 15:57:42 - Running the evict task with compensationTime 15ms
+2025-07-04 15:58:42 - Running the evict task with compensationTime 3ms
+2025-07-04 15:59:42 - Running the evict task with compensationTime 1ms
+2025-07-04 16:00:42 - Running the evict task with compensationTime 4ms
+2025-07-04 16:01:42 - Running the evict task with compensationTime 2ms
+2025-07-04 16:02:42 - Running the evict task with compensationTime 15ms
+2025-07-04 16:03:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:04:42 - Running the evict task with compensationTime 4ms
+2025-07-04 16:05:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:06:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:07:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 16:07:41 - Current renewal threshold is : 10
+2025-07-04 16:07:42 - Running the evict task with compensationTime 15ms
+2025-07-04 16:08:42 - Running the evict task with compensationTime 1ms
+2025-07-04 16:09:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:10:42 - Running the evict task with compensationTime 2ms
+2025-07-04 16:11:42 - Running the evict task with compensationTime 5ms
+2025-07-04 16:12:42 - Running the evict task with compensationTime 1ms
+2025-07-04 16:13:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:14:42 - Running the evict task with compensationTime 12ms
+2025-07-04 16:15:42 - Running the evict task with compensationTime 4ms
+2025-07-04 16:16:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:17:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 16:17:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:18:42 - Running the evict task with compensationTime 3ms
+2025-07-04 16:19:42 - Running the evict task with compensationTime 3ms
+2025-07-04 16:20:42 - Running the evict task with compensationTime 1ms
+2025-07-04 16:21:42 - Running the evict task with compensationTime 14ms
+2025-07-04 16:22:41 - Current renewal threshold is : 10
+2025-07-04 16:22:42 - Running the evict task with compensationTime 12ms
+2025-07-04 16:23:42 - Running the evict task with compensationTime 13ms
+2025-07-04 16:24:42 - Running the evict task with compensationTime 15ms
+2025-07-04 16:25:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:26:42 - Running the evict task with compensationTime 2ms
+2025-07-04 16:27:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 16:27:42 - Running the evict task with compensationTime 4ms
+2025-07-04 16:28:42 - Running the evict task with compensationTime 4ms
+2025-07-04 16:29:42 - Running the evict task with compensationTime 2ms
+2025-07-04 16:30:42 - Running the evict task with compensationTime 3ms
+2025-07-04 16:31:42 - Running the evict task with compensationTime 10ms
+2025-07-04 16:32:42 - Running the evict task with compensationTime 2ms
+2025-07-04 16:33:42 - Running the evict task with compensationTime 1ms
+2025-07-04 16:34:42 - Running the evict task with compensationTime 2ms
+2025-07-04 16:35:42 - Running the evict task with compensationTime 4ms
+2025-07-04 16:36:42 - Running the evict task with compensationTime 3ms
+2025-07-04 16:37:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 16:37:41 - Current renewal threshold is : 10
+2025-07-04 16:37:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:38:42 - Running the evict task with compensationTime 8ms
+2025-07-04 16:39:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:40:42 - Running the evict task with compensationTime 1ms
+2025-07-04 16:41:42 - Running the evict task with compensationTime 6ms
+2025-07-04 16:42:42 - Running the evict task with compensationTime 1ms
+2025-07-04 16:43:42 - Running the evict task with compensationTime 14ms
+2025-07-04 16:44:42 - Running the evict task with compensationTime 6ms
+2025-07-04 16:45:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:46:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:47:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 16:47:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:48:42 - Running the evict task with compensationTime 247ms
+2025-07-04 16:49:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:50:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:51:42 - Running the evict task with compensationTime 9ms
+2025-07-04 16:52:41 - Current renewal threshold is : 10
+2025-07-04 16:52:42 - Running the evict task with compensationTime 11ms
+2025-07-04 16:53:42 - Running the evict task with compensationTime 8ms
+2025-07-04 16:54:42 - Running the evict task with compensationTime 0ms
+2025-07-04 16:55:42 - Running the evict task with compensationTime 5ms
+2025-07-04 16:56:42 - Running the evict task with compensationTime 14ms
+2025-07-04 16:57:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 16:57:42 - Running the evict task with compensationTime 6ms
+2025-07-04 16:58:42 - Running the evict task with compensationTime 9ms
+2025-07-04 16:59:42 - Running the evict task with compensationTime 6ms
+2025-07-04 17:00:42 - Running the evict task with compensationTime 3ms
+2025-07-04 17:01:42 - Running the evict task with compensationTime 0ms
+2025-07-04 17:02:42 - Running the evict task with compensationTime 5ms
+2025-07-04 17:03:42 - Running the evict task with compensationTime 0ms
+2025-07-04 17:04:42 - Running the evict task with compensationTime 12ms
+2025-07-04 17:05:42 - Running the evict task with compensationTime 14ms
+2025-07-04 17:06:42 - Running the evict task with compensationTime 5ms
+2025-07-04 17:07:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 17:07:41 - Current renewal threshold is : 10
+2025-07-04 17:07:42 - Running the evict task with compensationTime 15ms
+2025-07-04 17:08:42 - Running the evict task with compensationTime 11ms
+2025-07-04 17:09:42 - Running the evict task with compensationTime 0ms
+2025-07-04 17:10:42 - Running the evict task with compensationTime 0ms
+2025-07-04 17:11:42 - Running the evict task with compensationTime 12ms
+2025-07-04 17:12:42 - Running the evict task with compensationTime 9ms
+2025-07-04 17:13:42 - Running the evict task with compensationTime 3ms
+2025-07-04 17:14:42 - Running the evict task with compensationTime 0ms
+2025-07-04 17:15:42 - Running the evict task with compensationTime 9ms
+2025-07-04 17:16:42 - Running the evict task with compensationTime 5ms
+2025-07-04 17:17:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 17:17:42 - Running the evict task with compensationTime 15ms
+2025-07-04 17:18:42 - Running the evict task with compensationTime 11ms
+2025-07-04 17:19:42 - Running the evict task with compensationTime 101ms
+2025-07-04 17:20:42 - Running the evict task with compensationTime 20ms
+2025-07-04 17:21:42 - Running the evict task with compensationTime 14ms
+2025-07-04 17:22:41 - Current renewal threshold is : 10
+2025-07-04 17:22:42 - Running the evict task with compensationTime 32ms
+2025-07-04 17:23:42 - Running the evict task with compensationTime 15ms
+2025-07-04 17:24:42 - Running the evict task with compensationTime 2ms
+2025-07-04 17:25:42 - Running the evict task with compensationTime 7ms
+2025-07-04 17:26:42 - Running the evict task with compensationTime 4ms
+2025-07-04 17:27:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 17:27:42 - Running the evict task with compensationTime 3ms
+2025-07-04 17:28:42 - Running the evict task with compensationTime 2ms
+2025-07-04 17:29:42 - Running the evict task with compensationTime 1ms
+2025-07-04 17:30:42 - Running the evict task with compensationTime 1ms
+2025-07-04 17:31:42 - Running the evict task with compensationTime 5ms
+2025-07-04 17:32:42 - Running the evict task with compensationTime 3ms
+2025-07-04 17:33:42 - Running the evict task with compensationTime 7ms
+2025-07-04 17:34:42 - Running the evict task with compensationTime 2ms
+2025-07-04 17:35:42 - Running the evict task with compensationTime 0ms
+2025-07-04 17:36:42 - Running the evict task with compensationTime 5ms
+2025-07-04 17:37:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 17:37:41 - Current renewal threshold is : 10
+2025-07-04 17:37:42 - Running the evict task with compensationTime 15ms
+2025-07-04 17:38:42 - Running the evict task with compensationTime 3ms
+2025-07-04 17:39:42 - Running the evict task with compensationTime 2ms
+2025-07-04 17:40:42 - Running the evict task with compensationTime 2ms
+2025-07-04 17:41:42 - Running the evict task with compensationTime 3ms
+2025-07-04 17:42:42 - Running the evict task with compensationTime 0ms
+2025-07-04 17:43:42 - Running the evict task with compensationTime 1ms
+2025-07-04 17:44:42 - Running the evict task with compensationTime 13ms
+2025-07-04 17:45:42 - Running the evict task with compensationTime 2ms
+2025-07-04 17:46:42 - Running the evict task with compensationTime 2ms
+2025-07-04 17:47:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 17:47:42 - Running the evict task with compensationTime 2ms
+2025-07-04 17:48:42 - Running the evict task with compensationTime 3ms
+2025-07-04 17:49:42 - Running the evict task with compensationTime 5ms
+2025-07-04 17:50:42 - Running the evict task with compensationTime 0ms
+2025-07-04 17:51:43 - Running the evict task with compensationTime 15ms
+2025-07-04 17:52:41 - Current renewal threshold is : 10
+2025-07-04 17:52:43 - Running the evict task with compensationTime 3ms
+2025-07-04 17:53:43 - Running the evict task with compensationTime 4ms
+2025-07-04 17:54:43 - Running the evict task with compensationTime 10ms
+2025-07-04 17:55:43 - Running the evict task with compensationTime 2ms
+2025-07-04 17:56:43 - Running the evict task with compensationTime 2ms
+2025-07-04 17:57:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 17:57:43 - Running the evict task with compensationTime 15ms
+2025-07-04 17:58:43 - Running the evict task with compensationTime 1ms
+2025-07-04 17:59:43 - Running the evict task with compensationTime 0ms
+2025-07-04 18:00:43 - Running the evict task with compensationTime 15ms
+2025-07-04 18:01:43 - Running the evict task with compensationTime 1ms
+2025-07-04 18:02:43 - Running the evict task with compensationTime 0ms
+2025-07-04 18:03:43 - Running the evict task with compensationTime 4ms
+2025-07-04 18:04:43 - Running the evict task with compensationTime 0ms
+2025-07-04 18:05:43 - Running the evict task with compensationTime 1ms
+2025-07-04 18:06:43 - Running the evict task with compensationTime 5ms
+2025-07-04 18:07:41 - The replica size seems to be empty. Check the route 53 DNS Registry
+2025-07-04 18:07:41 - Current renewal threshold is : 10
+2025-07-04 18:07:43 - Running the evict task with compensationTime 5ms
+2025-07-04 18:08:43 - Running the evict task with compensationTime 10ms
+2025-07-04 18:09:43 - Running the evict task with compensationTime 3ms
+2025-07-04 18:10:43 - Running the evict task with compensationTime 0ms
+2025-07-04 18:11:43 - Running the evict task with compensationTime 4ms
+2025-07-04 18:12:43 - Running the evict task with compensationTime 5ms
+2025-07-04 18:13:43 - Running the evict task with compensationTime 1ms
+2025-07-04 18:14:43 - Running the evict task with compensationTime 0ms
+2025-07-04 18:15:43 - Running the evict task with compensationTime 15ms
+2025-07-04 18:16:31 - Registered instance LOGIN-SERVICE/DESKTOP-C525GN2:login-service:8082 with status DOWN (replication=false)
+2025-07-04 18:16:43 - Running the evict task with compensationTime 1ms
+2025-07-04 18:16:45 - Cancelled instance LOGIN-SERVICE/DESKTOP-C525GN2:login-service:8082 (replication=false)
+2025-07-04 18:16:45 - Application shutdown requested.
+2025-07-04 18:16:46 - Unregistering application EUREKA-SERVER with eureka with status DOWN
+2025-07-04 18:16:46 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-04 18:16:48 - Application shutdown requested.
+2025-07-04 18:16:48 - Interrupt was received while waiting for the acceptor thread [http-nio-8761-Acceptor] to stop
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1133)
+	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:276)
+	at org.apache.tomcat.util.net.Acceptor.stopMillis(Acceptor.java:187)
+	at org.apache.tomcat.util.net.NioEndpoint.stopInternal(NioEndpoint.java:304)
+	at org.apache.tomcat.util.net.AbstractEndpoint.stop(AbstractEndpoint.java:1432)
+	at org.apache.coyote.AbstractProtocol.stop(AbstractProtocol.java:723)
+	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1099)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardService.removeConnector(StandardService.java:299)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.lambda$removeServiceConnectors$1(TomcatWebServer.java:173)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.doWithConnectors(TomcatWebServer.java:192)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.removeServiceConnectors(TomcatWebServer.java:170)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stop(TomcatWebServer.java:358)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.stop(WebServerStartStopLifecycle.java:53)
+	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:120)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:384)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:526)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:353)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:253)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1172)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:97)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:115)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:52)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:236)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-04 18:16:49 - Graceful shutdown aborted with one or more requests still active
+2025-07-04 18:16:49 - Shutting down Eureka Server..
+2025-07-04 18:16:49 - Shutting down ...
+2025-07-04 18:16:49 - Shut down
+2025-07-04 18:16:49 - Eureka Service is now shutdown...
+2025-07-04 18:16:49 - Shutting down ...
+2025-07-04 18:16:49 - Shut down
+2025-07-04 18:16:49 - Shutting down DiscoveryClient ...
+2025-07-04 18:16:49 - Completed shut down of DiscoveryClient
